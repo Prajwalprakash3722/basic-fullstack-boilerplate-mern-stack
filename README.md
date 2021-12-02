@@ -7,16 +7,37 @@
 - Has a Separate API route for the Authentication. (Login and Register)
 - Basic User Schema is provided, but can be extended to include more fields.
 - Middleware function to check if the user has a valid JWT Token is also provided.
+- In FrontEnd a Fully Functional `NavBar`, `Login Page`, `Register Page` and `Profile Page` is provided.
 
 ### Steps to use this Template:
 
 - Clone without .git
 
 ```bash
-npm degit https://github.com/Prajwalprakash3722/Basic-express-backend.git
+npm degit https://github.com/Prajwalprakash3722/basic-fullstack-boilerplate-mern-stack.git
 ```
 
-- Install Dependencies
+- Go to frontend
+```bash
+cd frontend
+```
+- Install Dependencies for frontend
+
+```bash
+npm install
+```
+
+- Run the Server
+
+```bash
+npm start
+```
+
+- Go to backend
+```bash
+cd backend
+```
+- Install Dependencies for backend
 
 ```bash
 npm install
@@ -97,3 +118,6 @@ Project Structure:
 - JWT
 - Bcrypt
 - Mongoose
+- react
+- tailwind
+- ant design
